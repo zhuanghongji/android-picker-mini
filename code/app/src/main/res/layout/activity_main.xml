@@ -13,6 +13,13 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:gravity="center"
+                android:text="滚轮选择器示例"/>
+
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -88,12 +95,6 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="onMultiplePicker"
-                android:text="多项选择" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:onClick="onLinkagePicker"
                 android:text="二三级联动选择" />
 
@@ -118,12 +119,6 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="onAddress4Picker"
-                android:text="地址选择（使用不同的数据源解析）" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:onClick="onAddress2Picker"
                 android:text="地址选择（只包括地级、县级）" />
 
@@ -133,6 +128,18 @@
                 android:onClick="onAddress3Picker"
                 android:text="地址选择（只包括省级、地级）" />
 
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onAddress4Picker"
+                android:text="地址选择（使用不同的数据源解析）" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:gravity="center"
+                android:text="- End -"/>
         </LinearLayout>
 
     </ScrollView>
